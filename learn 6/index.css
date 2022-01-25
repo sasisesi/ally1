@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background-color: #fff;
+}
+
+h1 {
+  color: #6a1b9a;
+}
+
+.navbar-expand .navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 5;
+  padding-left: 5;
+}
+/*# sourceMappingURL=index.css.map */

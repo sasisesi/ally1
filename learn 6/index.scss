@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+}
+$font-stack:    Helvetica, sans-serif;  
+$primary-color: #ffbbe3 !default;
+$accent-color: #6a1b9a !default;
+$font-rodo: 'Roboto', sans-serif;
+$font-neo:'Neonderthaw', cursive;
+$app-color:#4EDAAF !default;
+$white:#fff;
+$black:#000;
+
+
+
+html,body
+{
+  background-color:$white ;
+}
+h1
+{
+  color:$accent-color;
+
+}
+.navbar-expand
+{
+  .navbar-nav 
+  {
+    flex-direction: row;
+    .dropdown-menu {
+      position: absolute;
+    }
+    .nav-link {
+      padding-right:5;
+      padding-left:5;
+    }
+  }
+  }
